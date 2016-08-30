@@ -11,8 +11,8 @@ with open('Seaborn.docset/Contents/Resources/Documents/examples/index.html', 'r'
     for example in examples:
         link = dash_str_format.format(example['href'][2:])
         title = ''
-        with open('Seaborn.docset/Contents/Resources/Documents/{}'.format(link), 'r') as gallary_file:
-            title = BS(gallary_file, 'lxml').find('h1').text.replace(u'\u2019', '\'').replace(u'\xb6', '') #dirty hack to get around unicode errors
+        with open('Seaborn.docset/Contents/Resources/Documents/{}'.format(link), 'r') as gallery_file:
+            title = BS(gallery_file, 'lxml').find('h1').text.replace(u'\u2019', '\'').replace(u'\xb6', '') #dirty hack to get around unicode errors
         name = '{} - {}'.format(example.span.p.text, title)
         gallaries.append((name, link))
 
