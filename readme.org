@@ -9,10 +9,16 @@ Just run:
 #+END_SRC
 
 * Requirements 
-- Seaborn (duh)
-- All of seaborn's requirements.txt
-- BeautifulSoup
-- sqlite3
-- Sphinx
-- sphinx_bootstrap_theme
+- beautifulsoup4
+- numpy
+- scipy
+- matplotlib
+- pandas
+- statsmodels
+- patsy
+- numpydoc
+- nose
+- ipython
+- sphinx
 - doc2dash
+- sphinx_bootstrap_theme

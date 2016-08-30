@@ -1,1 +1,13 @@
-BeautifulSoup
+beautifulsoup4
+numpy
+scipy
+matplotlib
+pandas
+statsmodels
+patsy
+numpydoc
+nose
+ipython>=1.0
+sphinx>=1.2
+doc2dash
+sphinx_bootstrap_theme
