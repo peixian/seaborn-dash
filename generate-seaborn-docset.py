@@ -2,8 +2,7 @@ from bs4 import BeautifulSoup as BS
 from subprocess import call
 import sqlite3
 
-#call(['bash', 'helper.sh'])
-
+call(['bash', 'helper.sh'])
 
 with open('Seaborn.docset/Contents/Resources/Documents/examples/index.html', 'r') as infile:
     examples = BS(infile, 'lxml').find('div', {'id': 'example-gallery'}).find_all('a')[1:]
