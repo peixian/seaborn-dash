@@ -4,5 +4,15 @@ This is a Seaborn docset built for Dash, since the old docset only had guides an
 * Building
 Just run: 
 #+BEGIN_SRC sh 
+  pip install -r requirements.txt
   python generate-seaborn-docset.py
 #+END_SRC
+
+* Requirements 
+- Seaborn (duh)
+- All of seaborn's requirements.txt
+- BeautifulSoup
+- sqlite3
+- Sphinx
+- sphinx_bootstrap_theme
+- doc2dash

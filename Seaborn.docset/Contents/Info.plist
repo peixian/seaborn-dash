@@ -14,7 +14,5 @@
 	<true/>
 	<key>isJavaScriptEnabled</key>
 	<false/>
-  <key>DashDocSetFallbackURL</key>
-  <string>https://stanford.edu/~mwaskom/software/seaborn/</string>
 </dict>
 </plist>
