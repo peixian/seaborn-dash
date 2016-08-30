@@ -1,0 +1,8 @@
+* Seaborn Dash Docset
+This is a Seaborn docset built for Dash, since the old docset only had guides and lacked functions and examples. 
+
+* Building
+Just run: 
+#+BEGIN_SRC sh 
+  python generate-seaborn-docset.py
+#+END_SRC
